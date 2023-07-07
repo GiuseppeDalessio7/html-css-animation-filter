@@ -71,9 +71,15 @@
 }
 
 .ex-6-img:hover{
-    transition: all 2.5s;
+    transition: all ;
     filter: grayscale(1);
 }
+
+.ex-7-img:hover{
+    transition: all 2.6s;
+    filter: grayscale(1);
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
