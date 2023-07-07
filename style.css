@@ -70,6 +70,11 @@
     width: 500px;
 }
 
+.ex-6-img:hover{
+    transition: all 2.5s;
+    filter: grayscale(1);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
