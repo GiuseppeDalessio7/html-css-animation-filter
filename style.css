@@ -91,6 +91,14 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    transition: all 2s;
+    filter: contrast(0.7) brightness(1);
+    border-radius: 8%;
+    width: 200px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
