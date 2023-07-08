@@ -209,7 +209,7 @@
     70% {left: 0;
         top: 100% }
 
-    90% {left: -15px;
+    90% {left: -10%;
         top:-10px;}
 
     100% {left: 10%;
@@ -224,8 +224,8 @@
 
      @keyframes aroundbottom {
         0% {
-            bottom: -10px;
             right: 20%;
+            bottom: -10px;
         }
         25% {
             right: calc(100% - 30px);
@@ -240,7 +240,7 @@
             bottom: 100%;
         }
         90% {
-            right: -15px;
+            right: -10%;
             bottom: -10px;
         }
         100% {
