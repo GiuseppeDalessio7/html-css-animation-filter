@@ -100,8 +100,25 @@
 }
 
 .ex-10-icon {
-    font-size: 60px;
+    font-size: 60px;    
 }
+
+.ex-10-icon{
+    animation: circleroll 2.5s infinite;
+    transform: rotate(360deg);
+    }
+
+    @keyframes circleroll {
+
+        0% { transform: rotate(0)};
+
+        50% { transform: rotate(180deg)};
+
+        100% { transform: rotate(360deg)};
+        
+    }
+
+
 .ex-11-icon {
     font-size: 60px;
 }
